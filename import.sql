@@ -1,1 +1,1 @@
-ALTER TABLE `hobi` ADD CONSTRAINT person_id FOREIGN KEY (`id`) REFERENCES `person` (`id`);
+ALTER TABLE `hobi` ADD CONSTRAINT person_id FOREIGN KEY (`id`) REFERENCES `person` (`id`); 
