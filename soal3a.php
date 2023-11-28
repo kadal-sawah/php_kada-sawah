@@ -99,6 +99,19 @@ if ($connect->connect_error) {
             <td><?php echo $row['jumlah person']; ?></td>
         </tr>
     <?php } ?>
+    <form action="/tera/cari.php" method="post">
+        <tr>
+            <td>
+            <label for="carihobi">Cari by hobi</label>
+            </td>
+            <td>
+            <input type="text" name="carihobi" id="carihobi">
+            </td>
+            <td>
+            <input type="submit" value="Cari">
+            </td>
+        </tr>
+    </form>
 </table>
 
 </body>
